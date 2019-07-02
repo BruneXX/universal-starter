@@ -1,4 +1,7 @@
-# Angular Universal Starter
+# Angular Universal (With Docker Support)
+
+This is a for of Angular Universal Starter -> https://github.com/angular/universal-starter
+In this version I've also updated angular to latest stable of 7th version (v7.2.15)
 
 ![Angular Universal](https://angular.io/generated/images/marketing/concept-icons/universal.png)
 
@@ -16,7 +19,7 @@ We're utilizing packages from the [Angular Universal @nguniversal](https://githu
 ### Build Time Pre-rendering vs. Server-side Rendering (SSR)
 This repo demonstrates the use of 2 different forms of Server-side Rendering.
 
-**Pre-render** 
+**Pre-render**
 * Happens at build time
 * Renders your application and replaces the dist index.html with a version rendered at the route `/`.
 
@@ -33,7 +36,7 @@ This repo demonstrates the use of 2 different forms of Server-side Rendering.
 * run `npm run start` which will start `ng serve`
 
 ### Production (also for testing SSR/Pre-rendering locally)
-**`npm run build:ssr && npm run serve:ssr`** - Compiles your application and spins up a Node Express to serve your Universal application on `http://localhost:4000`.
+**`npm run build:ssr && npm run serve:ssr`** - Compiles your application and spins up a Node Express to serve your Universal application on `http://localhost:4000` or available port.
 
 **`npm run build:prerender && npm run serve:prerender`** - Compiles your application and prerenders your applications files, spinning up a demo http-server so you can view it on `http://localhost:8080`
 **Note**: To deploy your static site to a static hosting platform you will have to deploy the `dist/browser` folder, rather than the usual `dist`
