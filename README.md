@@ -1,6 +1,6 @@
 # Angular Universal (With Docker Support)
 
-This is a for of Angular Universal Starter -> https://github.com/angular/universal-starter
+This is a fork of Angular Universal Starter -> https://github.com/angular/universal-starter
 In this version I've also updated angular to latest stable of 7th version (v7.2.15)
 
 ![Angular Universal](https://angular.io/generated/images/marketing/concept-icons/universal.png)
