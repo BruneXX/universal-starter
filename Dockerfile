@@ -20,5 +20,3 @@ COPY . .
 ## Build the angular app in production mode and store the artifacts in dist folder
 
 EXPOSE 4200
-
-RUN npm run build:ssr
